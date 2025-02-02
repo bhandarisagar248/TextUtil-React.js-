@@ -12,7 +12,6 @@ const Alert=(props)=>{
 
 
 return(
-
     
    (<div class={`alert alert-${props.alert['color'].toLowerCase()} alert-dismissible fade show`} role="alert">
   <strong>{props.alert['type']}</strong> {props.alert['msg']}

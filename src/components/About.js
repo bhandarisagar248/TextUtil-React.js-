@@ -59,36 +59,36 @@ return (
   <div className="accordion-item" style={style}>
     <h2 className="accordion-header">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Accordion Item #1
+        Free to Use
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" className={`accordion-collapse collapse show bg-${props.mode} text-${props.antimode}`}>
       <div className="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>TextUtil is completely free with no hidden charges.</strong> Users can edit and analyze text without needing a <code>Subscription </code>, or payment.
       </div>
     </div>
   </div>
   <div className="accordion-item" style={style}>
     <h2 className="accordion-header" style={style}>
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Accordion Item #2
+      Analyze Your Text
       </button>
     </h2>
     <div id="panelsStayOpen-collapseTwo" className={`accordion-collapse collapse bg-${props.mode} text-${props.antimode}`}>
       <div className="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Word & Character Counter:</strong> Instantly count words, characters (with/without spaces), sentences, and paragraphs. <code>Readability Score: </code>Analyze how easy your text is to read based on Flesch-Kincaid or other readability formulas.
       </div>
     </div>
   </div>
   <div className="accordion-item" style={style}>
     <h2 className="accordion-header" style={style}>
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Accordion Item #3
+      Browser Compatibility
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThree" className={`accordion-collapse collapse bg-${props.mode} text-${props.antimode}`}>
       <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Works seamlessly across different web browsers like </strong><code> Chrome, Firefox, Edge, and Safari.</code> Fully responsive, so it adapts well to mobile, tablet, and desktop screens. <code>.No installation required—</code> works directly in the browser without needing any downloads.
       </div>
     </div>
   </div>
